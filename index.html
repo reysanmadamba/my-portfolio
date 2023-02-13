@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>REYSAN PORTFOLIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+</head>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a> -->
+  <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Social Media"><i class="fa fa-link" aria-hidden="true"></i></a> -->
+  <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a> -->
+  <div class="w3-dropdown-hover w3-hide-small">
+    <!-- <button class="w3-button w3-padding-large" title="Social Media"><i class="fa fa-link" aria-hidden="true"></i>
+        <span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-github" aria-hidden="true"></i>One new friend request</a>
+      <a href="#" class="w3-bar-item w3-button">John Doe posted on your wall</a>
+      <a href="#" class="w3-bar-item w3-button">Jane likes your post</a> -->
+    </div>
+  </div>
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+<!-- <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a> -->
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         
+         <p class="w3-center"><img src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.18169-9/17022443_1793939627587668_3831368872765774270_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=aWSuDfeu8KcAX-C1bDJ&_nc_ht=scontent.fmnl25-5.fna&oh=00_AfDW_h9cKlw3S3MTND1tljvZ-HXvHaA6L46nwHVJwHo4Qg&oe=64105919" class="w3-circle" style="height:206px;width:206px" alt="Avatar"></p>
+         <h4 class="w3-center">REY SAN MADAMBA</h4>
+         <hr>
+         <p><i class="fa fa-briefcase" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fullstack Developer</p>
+         <p<i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Baguio City, Philippines</p>
+         <p><i class="fa fa-birthday-cake" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;December 18, 1994</p>
+         <p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reysanmadamba00@gmail.com</p>
+         <p><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+639-06400-6292</p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Accordion -->
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Github</button>
+          <div id="Demo1" class="w3-hide w3-container">
+            <a href="https://github.com/reysanmadamba" target="_blank">Github</a>
+          </div>
+          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My Socials</button>
+          <div id="Demo2" class="w3-hide w3-container">
+            <a href="https://www.facebook.com/reysanmadambaftw" target="_blank">
+                Facebook
+            </a>
+            <a href="https://www.instagram.com/reysanmadamba" target="_blank">
+            <p>Instagram</p></a>
+          </div>
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-picture-o" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Photos</button>
+          <div id="Demo3" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         <br>
+           <div class="w3-half">
+             <img src="https://scontent.fcrk2-1.fna.fbcdn.net/v/t39.30808-6/317464358_3568194103495536_6707438210268235220_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aZ3bH4nANiAAX8TfOH1&_nc_ht=scontent.fcrk2-1.fna&oh=00_AfBnwUR0-62UM4WABUYkS36aiFvBvn1Avl6GejPjfe5E2A&oe=63EE2F7D" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="https://scontent.fcrk2-1.fna.fbcdn.net/v/t39.30808-6/237211937_3208672196114397_6825594576137797707_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=id-gke7m2N4AX9XplNx&_nc_ht=scontent.fcrk2-1.fna&oh=00_AfDfFojRA8Qj_hUpCBv6i2-9m1cagozyKIq4NGtX6K5YRg&oe=63EE8881" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.18169-9/21317739_1932877427027220_7754875573160730106_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=Z86avN5GuakAX-nhFZk&_nc_ht=scontent.fmnl25-5.fna&oh=00_AfCxCXJ8NhSBl4fcYi70CL906Mr8KX-waTet_ciYQhcx5w&oe=64105705" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.18169-9/27971760_2025245381123757_6922474995618525247_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=9qYI2qa0z_MAX8a8fGD&_nc_ht=scontent.fmnl25-5.fna&oh=00_AfCRBOwOFdAc-IqFUEiTlKwxHC91c29PQMxh9eeYh0o-Ew&oe=64104C40" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t1.18169-9/12809774_1557799614535005_6021185459125378484_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=2yFmCNufSZwAX_V5dhW&_nc_ht=scontent.fmnl8-1.fna&oh=00_AfB5VtShg5ig08zKbCv_PWoTZRGMPcCMZ0BLSYalsP_J0Q&oe=64105F87" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="https://scontent.fcrk2-2.fna.fbcdn.net/v/t1.6435-9/135623238_3040855826229369_991181519282611941_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=x5ic2vXeVc0AX_eSK6R&_nc_ht=scontent.fcrk2-2.fna&oh=00_AfDOL4j2IdG0F1OCjuoLPdvPEs0_rmN0n6DooybE3m6nPA&oe=64106B24" style="width:100%" class="w3-margin-bottom">
+           </div>
+         </div>
+          </div>
+        </div>      
+      </div>
+      <br>
+      
+      <!-- Interests --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Skills</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">Javascript</span>
+            <span class="w3-tag w3-small w3-theme-d4">Python</span>
+            <span class="w3-tag w3-small w3-theme-d3">HTML</span>
+            <span class="w3-tag w3-small w3-theme-d2">CSS</span>
+            <span class="w3-tag w3-small w3-theme-d1">Social Media Strategist</span>
+            <span class="w3-tag w3-small w3-theme">Social Media Manager</span>
+            <span class="w3-tag w3-small w3-theme-l1">Videographer</span>
+            <!-- <span class="w3-tag w3-small w3-theme-l2">sample3</span>
+            <span class="w3-tag w3-small w3-theme-l3">sample4</span>
+            <span class="w3-tag w3-small w3-theme-l4">sample5</span>
+            <span class="w3-tag w3-small w3-theme-l5">sa</span> -->
+          </p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Alert Box -->
+      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+          <i class="fa fa-remove"></i>
+        </span>
+        <p><strong></strong></p>
+        <p>I am looking forward to working with you in a professional manner and making the most of our collaboration. Let's strive towards our shared goals and make a positive impact together.
+      </div>
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+      <div class="w3-container w3-card w3-white w3-round" style="margin: 0px 20px 20px 20px"><br>
+        <img src="data:image/png;base64,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" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity"></span>
+        <h4>About Me</h4><br>
+        <hr class="w3-clear">
+        <p>Hi there! </p>
+            <p>My name is Rey San Madamba and I recently graduated from Stacktrek Bootcamp.</p> I am a driven individual who is passionate about problem-solving and thinking critically. <p>I have worked as a social media manager and consultant for several well-known celebrities, honing my skills in communication and marketing.</p>
+
+            <p>Although I studied BS Computer Science at Gordon College as an undergraduate, I was unable to complete my degree due to my focus on blogging and earning through Google AdSense.</p> Nevertheless, I have always been passionate about programming and I am grateful to have found Stacktrek Bootcamp as a way to pursue my dream of becoming a full-stack developer.
+            
+            <p>My primary language of choice is JavaScript, and I am skilled in using React, HTML, and CSS. I am confident in my ability to build dynamic and responsive websites that provide a seamless user experience.</p>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+              <!-- <img src="/w3images/lights.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom"> -->
+            </div>
+            <div class="w3-half">
+              <!-- <img src="/w3images/nature.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom"> -->
+          </div>
+        </div>
+        <!-- <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>  -->
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQswMk26J06SSQoM8ZhySus7O_KoiLKlgi-9Q&usqp=CAU" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity"> </span>
+        <h4>Educational Background</h4><br>
+        <hr class="w3-clear">
+        <p><ul>
+            <li>James L. Gordon Integrated School 2000 - 2006 (Graduated)</li>
+            <li>James L. Gordon Integrated School 2007 - 2012 (Graduated)</li>
+            <li>BS Computer Science at Gordon College (Undergraduate)  2016-2018</li>
+            <li>Stacktrek Bootcamp  August 2022 - December 2022 (Graduated)</li>
+          </ul><p>
+        <!-- <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>  -->
+      </div>  
+
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://www.pngfind.com/pngs/m/654-6548308_briefcase-free-vector-icons-designed-by-those-icons.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity"></span>
+        <h4>Work Background</h4><br>
+        <hr class="w3-clear">
+        <!-- <img src="https://www.pngfind.com/pngs/m/654-6548308_briefcase-free-vector-icons-designed-by-those-icons.png" style="width:100%" class="w3-margin-bottom"> -->
+        <p><ul>
+            <li>Keyer at Source Corp (2014-2015)</li>
+            <li>Blogger and Google AdSense User (2015 to present)</li>
+            <li>Social Media Manager and Consultant for Mr. Edu Manzano (2016 to present)</li>
+            <li>Facebook Gaming Partner Talent Handler (2018-2020)</li>
+            <li>Social Media Strategist for ELYZA (2016 to present)</li>
+          </ul>
+          </p>
+        <!-- <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>  -->
+      </div> 
+      
+    <!-- End Middle Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Recent Achievement</p>
+          <img src="https://scontent.fcrk2-1.fna.fbcdn.net/v/t39.30808-6/277584495_2754900981483071_8927392693981631861_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=mHfGdFgkRasAX_N513W&_nc_oc=AQkHKNIwIsEXoH-ouGxDbHoGQAiGaiR4ev2xshYKoI8-Nn-8G2VukQcbLpGk2-Wz0nDkzlaiKvAPj3Gzp27c-lAE&tn=y8pHfM-LpcuiYgTs&_nc_ht=scontent.fcrk2-1.fna&oh=00_AfCijmRsQRPsjqR6CPFvOTzcssnWRZHtMNKg7iTWcB3WuQ&oe=63EE3288" alt="Forest" style="width:100%;">
+          <p><strong>Stacktrek Bootcamp Graduate</strong></p>
+          <p>December 16, 2022</p>
+          <p><a href="https://stacktrek.com/bootcamp" target="_blank" class="w3-button w3-block w3-theme-l4">Info</a></p>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <a href="" target="_blank">
+          <img src="https://t3.ftcdn.net/jpg/03/77/85/04/360_F_377850455_Gk0rRBzegH6YX9SZK9YbgyYyLwrVb9zi.jpg" alt="Avatar" style="width:50%"><br>
+          <span>DOWNLOAD MY CV</span>
+            </a>
+          <div class="w3-row w3-opacity">
+            <div class="w3-half">
+              <!-- <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
+            </div>
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+      <!-- <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
+        <p>ADS</p>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-padding-32 w3-center">
+        <p><i class="fa fa-bug w3-xxlarge"></i></p>
+      </div> -->
+      
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-d3 w3-padding-1">
+  <h5> </h5>
+</footer>
+ 
+<script>
+// Accordion
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-theme-d1";
+  } else { 
+    x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-theme-d1", "");
+  }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html> 
